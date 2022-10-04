@@ -13,7 +13,7 @@ Info workers ...
 </h1>
 <br>
 <br>
-<security:authorize access = "hasRole('hr')">
+<security:authorize access = "hasRole('HR')">
 <input type = "button" value="Salary"
 onclick ="window.location.href = 'hr_info'"/>
 only for HR staff...
@@ -21,7 +21,7 @@ only for HR staff...
 
 <br>
 <br>
-<security:authorize access = "hasRole('employee')">
+<security:authorize access = "hasRole('MANAGER')">
 <input type = "button" value="Performance"
 onclick ="window.location.href = 'customer_info'"/>
 only for customer...
